@@ -12,11 +12,12 @@
 ===========================*/
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
-  --font: "Lexend", sans-serif;
-  --body-color: #637381;
-  --heading-color: #219ebc;
-  --primary-color: #002d42;
-  --white: #ffffff;
+  --font              : "Lexend", sans-serif;
+  --body-color        : #637381;
+  --heading-color     : rgb(33, 158, 188);
+  --heading-color-rgba: rgba(33, 158, 188, 25%);
+  --primary-color     : #002d42;
+  --white             : #ffffff;
 }
 
 body {
@@ -445,7 +446,7 @@ p {
 
 .navbar-btn .ud-white-btn:hover {
   background: white;
-  color: var(--heading-color);
+  color: var(--primary-color);
 }
 
 .sticky .navbar-toggler .toggler-icon {
@@ -458,7 +459,7 @@ p {
 }
 
 .sticky .navbar-nav .nav-item a {
-  color: var(--heading-color);
+  color: var(--primary-color);
 }
 
 .sticky .navbar-nav .nav-item a.active, .sticky .navbar-nav .nav-item a:hover {
@@ -481,12 +482,13 @@ p {
 }
 
 .sticky .navbar-btn .ud-white-btn:hover {
-  background: var(--heading-color);
+  background: var(--primary-color);
 }
 
 /* ===== Hero CSS ===== */
 .ud-hero {
   background: var(--primary-color);
+  background: linear-gradient(180deg, rgba(0,45,66,1) 0%, rgba(2,54,77,1) 64%, rgba(4,63,88,1) 68%, rgba(7,73,99,1) 72%, rgba(10,83,110,1) 76%, rgba(17,103,132,1) 80%, rgba(20,114,143,1) 84%, rgba(23,125,154,1) 88%, rgba(26,136,166,1) 92%, rgba(29,147,177,1) 96%, rgba(33,158,188,1) 100%);
   padding-top: 180px;
 }
 
@@ -574,7 +576,7 @@ p {
 
 .ud-hero-buttons .ud-white-btn {
   background: var(--white);
-  color: var(--heading-color);
+  color: var(--primary-color);
 }
 
 .ud-hero-buttons .ud-white-btn:hover {
@@ -751,6 +753,7 @@ p {
 /* ===== About CSS ===== */
 .ud-about {
   background: #f3f4fe;
+  background: #eefbfd;
   padding: 120px 0;
 }
 
@@ -762,7 +765,8 @@ p {
 
 .ud-about-wrapper {
   background: var(--white);
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--heading-color-rgba);
+  border-radius: 1rem;
   display: flex;
   justify-content: space-between;
 }
@@ -959,6 +963,7 @@ p {
   padding-top: 120px;
   padding-bottom: 90px;
   background: #f3f4fe;
+  background: #eefbfd;
   position: relative;
   z-index: 1;
 }
@@ -979,9 +984,9 @@ p {
 
 .ud-single-faq {
   background: var(--white);
-  border: 1px solid #f3f4fe;
+  border: 1px solid var(--heading-color-rgba);
   box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
-  border-radius: 10px;
+  border-radius: 1rem;
   margin-bottom: 30px;
 }
 
@@ -994,7 +999,7 @@ p {
   background: transparent;
   font-weight: 600;
   font-size: 18px;
-  color: var(--heading-color);
+  color: var(--primary-color);
   opacity: 0.88;
   padding: 30px;
 }
@@ -1255,6 +1260,7 @@ p {
   left: 0;
   height: 50%;
   background: #f3f4fe;
+  background: #eefbfd;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1324,7 +1330,8 @@ p {
 
 .ud-contact-form-wrapper {
   box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.05);
-  border-radius: 8px;
+  border-radius: 1rem;
+  border: 1px solid var(--heading-color-rgba);
   background: var(--white);
   padding: 60px;
 }
@@ -1382,7 +1389,7 @@ p {
 
 /* ===== Footer CSS ===== */
 .ud-footer {
-  background: var(--heading-color);
+  background: var(--primary-color);
   padding-top: 100px;
   position: relative;
   z-index: 1;
@@ -1392,6 +1399,7 @@ p {
 .ud-footer .shape {
   position: absolute;
   z-index: -1;
+  opacity: 0;
 }
 
 .ud-footer .shape.shape-1 {
@@ -1426,9 +1434,9 @@ p {
 .ud-widget .ud-widget-desc {
   font-size: 15px;
   line-height: 24px;
-  color: #f3f4fe;
+  color: #fff;
   margin-bottom: 30px;
-  max-width: 260px;
+  font-size: 1.125rem;
 }
 
 .ud-widget .ud-widget-socials {
@@ -2425,4 +2433,7 @@ p {
     font-size: 14px;
     padding: 10px 20px;
   }
+}
+.primary-text-color {
+  color: var(--primary-color)!important;
 }
