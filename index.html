@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Focal | Digital Product Consulting</title>
 
     <!-- Primary Meta Tags -->
@@ -34,20 +33,22 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- ===== All CSS files ===== -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/lineicons.css">
+    <link rel="stylesheet" href="assets/css/ud-styles.css">
   </head>
   <body>
+    <h1 class="visually-hidden">Apex Focal</h1>
 <!-- ====== Header Start ====== -->
 <header class="ud-header">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <nav class="navbar navbar-expand-lg">
+          <nav class="navbar navbar-expand-lg" aria-labelledby="navH2">
+            <h2 class="visually-hidden" id="navH2">Main Site Menu</h2>
             <a class="navbar-brand" href="index.html">
-              <img src="assets/images/logo/logo.svg" alt="Apex Focal home page." />
+              <img src="assets/images/logo/logo.svg" alt="Apex Focal home page.">
             </a>
             <button class="navbar-toggler">
               <span class="toggler-icon"> </span>
@@ -81,12 +82,12 @@
   <!-- ====== Header End ====== -->
   
 <!-- ====== Hero Start ====== -->
-<section class="ud-hero" id="home">
+<section class="ud-hero" id="home" aria-labelledby="mainHeading">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
-            <h1 class="ud-hero-title">Apex Focal is<br> Digital Product Consulting</h1>
+            <h2 class="ud-hero-title" id="mainHeading">Apex Focal is<br> Digital Product Consulting</h2>
             <p class="ud-hero-desc">Our research and insights improve your product along many dimensions. From accessibility to market reach, our suggestions are backed by data and industry standards.</p>
             <ul class="ud-hero-buttons">
               <li>
@@ -102,9 +103,9 @@
             </ul>
           </div>
           <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
-            <img src="assets/images/hero/hero-image.svg"   alt="Sample dashboard of a digital product." />
-            <img src="assets/images/hero/dotted-shape.svg" alt="" class="shape shape-1" />
-            <img src="assets/images/hero/dotted-shape.svg" alt="" class="shape shape-2" />
+            <img src="assets/images/hero/hero-image.svg"   alt="Sample dashboard of a digital product.">
+            <img src="assets/images/hero/dotted-shape.svg" alt="" class="shape shape-1">
+            <img src="assets/images/hero/dotted-shape.svg" alt="" class="shape shape-2">
           </div>
         </div>
       </div>
@@ -127,7 +128,7 @@
           </div>
         </div>
         <div class="ud-about-image">
-          <img src="assets/images/about/about-image.svg" alt="A collection of components which make up a digital product." />
+          <img src="assets/images/about/about-image.svg" alt="A collection of components which make up a digital product.">
         </div>
       </div>
     </div>
@@ -149,7 +150,7 @@
 				<div class="col-lg-4 col-sm-6">
 					<div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
 						<div class="ud-feature-icon">
-							<i class="lni lni-layout"></i>
+							<i class="lni lni-layout" aria-hidden="true"></i>
 						</div>
 						<div class="ud-feature-content">
 							<h3 class="ud-feature-title">Accessibility Insights</h3>
@@ -163,7 +164,7 @@
 				<div class="col-lg-4 col-sm-6">
 					<div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
 						<div class="ud-feature-icon">
-							<i class="lni lni-move"></i>
+							<i class="lni lni-move" aria-hidden="true"></i>
 						</div>
 						<div class="ud-feature-content">
 							<h3 class="ud-feature-title">Market Reach Analysis</h3>
@@ -177,7 +178,7 @@
 				<div class="col-lg-4 col-sm-6">
 					<div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
 						<div class="ud-feature-icon">
-							<i class="lni lni-gift"></i>
+							<i class="lni lni-gift" aria-hidden="true"></i>
 						</div>
 						<div class="ud-feature-content">
 							<h3 class="ud-feature-title">Usability Evaluations</h3>
@@ -197,14 +198,14 @@
 <!-- ====== FAQ Start ====== -->
 <section id="faq" class="ud-faq">
     <div class="shape">
-      <img src="assets/images/faq/shape.svg" alt="shape" />
+      <img src="assets/images/faq/shape.svg" alt="shape">
     </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="ud-section-title text-center mx-auto">
             <span>FAQ</span>
-            <h2>Any Questions? Answered</h2>
+            <h2>Any Questions?</h2>
             <p>Digital products come with a lot of questions. Let Apex Focal  answer them for you.</p>
           </div>
         </div>
@@ -219,7 +220,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne">
                 <span class="icon flex-shrink-0">
-                  <i class="lni lni-chevron-down"></i>
+                  <i class="lni lni-chevron-down" aria-hidden="true"></i>
                 </span>
                 <span>What is accessibility?</span>
               </button>
@@ -236,7 +237,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo">
                 <span class="icon flex-shrink-0">
-                  <i class="lni lni-chevron-down"></i>
+                  <i class="lni lni-chevron-down" aria-hidden="true"></i>
                 </span>
                 <span>What is market reach analysis?</span>
               </button>
@@ -255,7 +256,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree">
                 <span class="icon flex-shrink-0">
-                  <i class="lni lni-chevron-down"></i>
+                  <i class="lni lni-chevron-down" aria-hidden="true"></i>
                 </span>
                 <span>What is user testing?</span>
               </button>
@@ -272,7 +273,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour">
                 <span class="icon flex-shrink-0">
-                  <i class="lni lni-chevron-down"></i>
+                  <i class="lni lni-chevron-down" aria-hidden="true"></i>
                 </span>
                 <span>Why do you need Apex Focal?</span>
               </button>
@@ -315,7 +316,7 @@
                 </div>
                 <div class="ud-info-meta">
                   <h3>How Can We Help?</h3>
-                  <p>info@apexfocal.com</p>
+                  <p>Send us a message! We’re looking forward to working with you.</p>
                 </div>
               </div>
             </div>
@@ -330,27 +331,19 @@
             <form class="ud-contact-form" action="https://formcarry.com/s/OlHzYwK13e" method="POST" accept-charset="UTF-8">
               <div class="ud-form-group">
                 <label for="fullName">* Full Name</label>
-                <input
-                  type="text"
-                  name="fullName" />
+                <input id="fullName" type="text" name="fullName" required>
               </div>
               <div class="ud-form-group">
                 <label for="email">* Email</label>
-                <input
-                  type="email"
-                  name="email" />
+                <input id="email" type="email" name="email" required>
               </div>
               <div class="ud-form-group">
                 <label for="phone">Phone</label>
-                <input
-                  type="tel"
-                  name="phone" />
+                <input id="phone" type="tel" name="phone">
               </div>
               <div class="ud-form-group">
                 <label for="message">* Message</label>
-                <textarea
-                  name="message"
-                  rows="3" ></textarea>
+                <textarea id="message" name="message" rows="3" required></textarea>
               </div>
               <div class="ud-form-group mb-0">
                 <button type="submit" class="ud-main-btn">
@@ -368,37 +361,40 @@
 <!-- ====== Footer Start ====== -->
 <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
     <div class="shape shape-1">
-      <img src="assets/images/footer/shape-1.svg" alt="shape" />
+      <img src="assets/images/footer/shape-1.svg" alt="">
     </div>
     <div class="shape shape-2">
-      <img src="assets/images/footer/shape-2.svg" alt="shape" />
+      <img src="assets/images/footer/shape-2.svg" alt="">
     </div>
     <div class="shape shape-3">
-      <img src="assets/images/footer/shape-3.svg" alt="shape" />
+      <img src="assets/images/footer/shape-3.svg" alt="">
     </div>
     <div class="ud-footer-widgets">
       <div class="container">
         <div class="row">
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="ud-widget">
-              <a href="index.html" class="ud-footer-logo">
-                <img src="assets/images/logo/logo.svg" alt="logo" />
+              <a href="#" class="ud-footer-logo">
+                <img src="assets/images/logo/logo.svg" alt="Apex Focal home page top.">
               </a>
               <p class="ud-widget-desc">Our research and insights improve your product along many dimensions. From accessibility to market reach, our suggestions are backed by data and industry standards.</p>
               <ul class="ud-widget-socials">
                 <li>
                   <a href="https://www.facebook.com/apexfocal/">
-                    <i class="lni lni-facebook-filled"></i>
+                    <i class="lni lni-facebook-filled" aria-hidden="true"></i>
+                    <p class="visually-hidden">Connect with Apex Focal on Facebook.</p>
                   </a>
                 </li>
                 <li>
                   <a href="https://twitter.com/apexfocal">
-                    <i class="lni lni-twitter-filled"></i>
+                    <i class="lni lni-twitter-filled" aria-hidden="true"></i>
+                    <p class="visually-hidden">Connect with Apex Focal on Twitter.</p>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/company/apexfocal">
-                    <i class="lni lni-linkedin-original"></i>
+                    <i class="lni lni-linkedin-original" aria-hidden="true"></i>
+                    <p class="visually-hidden">Connect with Apex Focal on LinkedIn.</p>
                   </a>
                 </li>
               </ul>
@@ -412,7 +408,8 @@
   
 <!-- ====== Back To Top Start ====== -->
 <a href="javascript:void(0)" class="back-to-top">
-    <i class="lni lni-chevron-up"> </i>
+    <i class="lni lni-chevron-up" aria-hidden="true"> </i>
+    <p class="visually-hidden">Back to the top of this page.</p>
   </a>
   <!-- ====== Back To Top End ====== -->
 
@@ -433,7 +430,6 @@
         });
       });
     });
-
     // section menu active
     function onScroll(event) {
       const sections = document.querySelectorAll(".ud-menu-scroll");
@@ -460,7 +456,6 @@
         }
       }
     }
-
     window.document.addEventListener("scroll", onScroll);
   </script>
 </body>
