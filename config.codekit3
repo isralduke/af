@@ -69,6 +69,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/assets\/css\/ud-styles-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/ud-styles-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/assets\/css\/ud-styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -401,15 +413,169 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/images\/favicon.svg" : {
+    "\/assets\/images\/favicons\/android-chrome-192x192.png" : {
+      "ft" : 32768,
+      "iS" : 6426,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/android-chrome-192x192.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/android-chrome-512x512.png" : {
+      "ft" : 32768,
+      "iS" : 17287,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/android-chrome-512x512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/apple-touch-icon.png" : {
+      "ft" : 32768,
+      "iS" : 5381,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/browserconfig.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/browserconfig.xml",
+      "oF" : 0
+    },
+    "\/assets\/images\/favicons\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 905,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 1482,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/favicon.ico",
+      "oF" : 0
+    },
+    "\/assets\/images\/favicons\/mstile-70x70.png" : {
+      "ft" : 32768,
+      "iS" : 2550,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/mstile-70x70.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/mstile-144x144.png" : {
+      "ft" : 32768,
+      "iS" : 3589,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/mstile-144x144.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/mstile-150x150.png" : {
+      "ft" : 32768,
+      "iS" : 3818,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/mstile-150x150.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/mstile-310x150.png" : {
+      "ft" : 32768,
+      "iS" : 4089,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/mstile-310x150.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/mstile-310x310.png" : {
+      "ft" : 32768,
+      "iS" : 8345,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/mstile-310x310.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/safari-pinned-tab.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/images\/favicon.svg",
+      "oAP" : "\/assets\/images\/favicons\/safari-pinned-tab.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/assets\/images\/favicons\/site.webmanifest" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/site.webmanifest",
+      "oF" : 0
     },
     "\/assets\/images\/footer\/brands\/ayroui.svg" : {
       "ft" : 2097152,
@@ -536,6 +702,26 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/assets\/images\/hero\/hero-image.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/logo\/jic\/logo-2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/logo\/jic\/logo-2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/logo\/jic\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/logo\/jic\/logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -1021,6 +1207,14 @@
       "oAP" : "\/blog.html",
       "oF" : 0
     },
+    "\/CNAME" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/CNAME",
+      "oF" : 0
+    },
     "\/contact.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1053,14 +1247,6 @@
       "oAP" : "\/includes\/_faq.html",
       "oF" : 0
     },
-    "\/includes\/_features.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/includes\/_features.html",
-      "oF" : 0
-    },
     "\/includes\/_file-begin.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1085,6 +1271,14 @@
       "oAP" : "\/includes\/_footer.html",
       "oF" : 0
     },
+    "\/includes\/_header copy.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/includes\/_header copy.html",
+      "oF" : 0
+    },
     "\/includes\/_header.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1107,6 +1301,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/includes\/_pricing.html",
+      "oF" : 0
+    },
+    "\/includes\/_services.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/includes\/_services.html",
       "oF" : 0
     },
     "\/includes\/_team.kit" : {
@@ -1195,7 +1397,7 @@
     "creationDate" : 697871824.33182502,
     "displayValue" : "af",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets_teal",
+    "iconImageName" : "\/assets\/images\/favicons\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
